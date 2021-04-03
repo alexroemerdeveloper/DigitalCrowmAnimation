@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FAC00922618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6FAC00912618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FAC00972618EAB400BC6745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC00962618EAB400BC6745 /* Assets.xcassets */; };
+		6FAC009E2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6FAC009D2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FAC00A32618EAB400BC6745 /* DigitalCrowmAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC00A22618EAB400BC6745 /* DigitalCrowmAnimationApp.swift */; };
+		6FAC00A52618EAB400BC6745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC00A42618EAB400BC6745 /* ContentView.swift */; };
+		6FAC00A72618EAB400BC6745 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC00A62618EAB400BC6745 /* NotificationController.swift */; };
+		6FAC00A92618EAB400BC6745 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC00A82618EAB400BC6745 /* NotificationView.swift */; };
+		6FAC00AB2618EAB400BC6745 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC00AA2618EAB400BC6745 /* ComplicationController.swift */; };
+		6FAC00AD2618EAB400BC6745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC00AC2618EAB400BC6745 /* Assets.xcassets */; };
+		6FAC00B02618EAB400BC6745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC00AF2618EAB400BC6745 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FAC00932618EAB300BC6745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FAC00872618EAB300BC6745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FAC00902618EAB300BC6745;
+			remoteInfo = "DigitalCrowmAnimation WatchKit App";
+		};
+		6FAC009F2618EAB400BC6745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FAC00872618EAB300BC6745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FAC009C2618EAB400BC6745;
+			remoteInfo = "DigitalCrowmAnimation WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FAC00B82618EAB400BC6745 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6FAC009E2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAC00BC2618EAB400BC6745 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6FAC00922618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6FAC008D2618EAB300BC6745 /* DigitalCrowmAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCrowmAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FAC00912618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalCrowmAnimation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FAC00962618EAB400BC6745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FAC00982618EAB400BC6745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FAC009D2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DigitalCrowmAnimation WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FAC00A22618EAB400BC6745 /* DigitalCrowmAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalCrowmAnimationApp.swift; sourceTree = "<group>"; };
+		6FAC00A42618EAB400BC6745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FAC00A62618EAB400BC6745 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6FAC00A82618EAB400BC6745 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6FAC00AA2618EAB400BC6745 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6FAC00AC2618EAB400BC6745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FAC00AF2618EAB400BC6745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FAC00B12618EAB400BC6745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FAC00B22618EAB400BC6745 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FAC009A2618EAB400BC6745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FAC00862618EAB300BC6745 = {
+			isa = PBXGroup;
+			children = (
+				6FAC00952618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App */,
+				6FAC00A12618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension */,
+				6FAC008E2618EAB300BC6745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FAC008E2618EAB300BC6745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC008D2618EAB300BC6745 /* DigitalCrowmAnimation.app */,
+				6FAC00912618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app */,
+				6FAC009D2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FAC00952618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC00962618EAB400BC6745 /* Assets.xcassets */,
+				6FAC00982618EAB400BC6745 /* Info.plist */,
+			);
+			path = "DigitalCrowmAnimation WatchKit App";
+			sourceTree = "<group>";
+		};
+		6FAC00A12618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC00A22618EAB400BC6745 /* DigitalCrowmAnimationApp.swift */,
+				6FAC00A42618EAB400BC6745 /* ContentView.swift */,
+				6FAC00A62618EAB400BC6745 /* NotificationController.swift */,
+				6FAC00A82618EAB400BC6745 /* NotificationView.swift */,
+				6FAC00AA2618EAB400BC6745 /* ComplicationController.swift */,
+				6FAC00AC2618EAB400BC6745 /* Assets.xcassets */,
+				6FAC00B12618EAB400BC6745 /* Info.plist */,
+				6FAC00B22618EAB400BC6745 /* PushNotificationPayload.apns */,
+				6FAC00AE2618EAB400BC6745 /* Preview Content */,
+			);
+			path = "DigitalCrowmAnimation WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6FAC00AE2618EAB400BC6745 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC00AF2618EAB400BC6745 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FAC008C2618EAB300BC6745 /* DigitalCrowmAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAC00BD2618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation" */;
+			buildPhases = (
+				6FAC008B2618EAB300BC6745 /* Resources */,
+				6FAC00BC2618EAB400BC6745 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FAC00942618EAB300BC6745 /* PBXTargetDependency */,
+			);
+			name = DigitalCrowmAnimation;
+			productName = DigitalCrowmAnimation;
+			productReference = 6FAC008D2618EAB300BC6745 /* DigitalCrowmAnimation.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6FAC00902618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAC00B92618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation WatchKit App" */;
+			buildPhases = (
+				6FAC008F2618EAB300BC6745 /* Resources */,
+				6FAC00B82618EAB400BC6745 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FAC00A02618EAB400BC6745 /* PBXTargetDependency */,
+			);
+			name = "DigitalCrowmAnimation WatchKit App";
+			productName = "DigitalCrowmAnimation WatchKit App";
+			productReference = 6FAC00912618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6FAC009C2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAC00B52618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation WatchKit Extension" */;
+			buildPhases = (
+				6FAC00992618EAB400BC6745 /* Sources */,
+				6FAC009A2618EAB400BC6745 /* Frameworks */,
+				6FAC009B2618EAB400BC6745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalCrowmAnimation WatchKit Extension";
+			productName = "DigitalCrowmAnimation WatchKit Extension";
+			productReference = 6FAC009D2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FAC00872618EAB300BC6745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6FAC008C2618EAB300BC6745 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6FAC00902618EAB300BC6745 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6FAC009C2618EAB400BC6745 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6FAC008A2618EAB300BC6745 /* Build configuration list for PBXProject "DigitalCrowmAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FAC00862618EAB300BC6745;
+			productRefGroup = 6FAC008E2618EAB300BC6745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FAC008C2618EAB300BC6745 /* DigitalCrowmAnimation */,
+				6FAC00902618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App */,
+				6FAC009C2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FAC008B2618EAB300BC6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAC008F2618EAB300BC6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC00972618EAB400BC6745 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAC009B2618EAB400BC6745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC00B02618EAB400BC6745 /* Preview Assets.xcassets in Resources */,
+				6FAC00AD2618EAB400BC6745 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FAC00992618EAB400BC6745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC00A72618EAB400BC6745 /* NotificationController.swift in Sources */,
+				6FAC00A52618EAB400BC6745 /* ContentView.swift in Sources */,
+				6FAC00AB2618EAB400BC6745 /* ComplicationController.swift in Sources */,
+				6FAC00A32618EAB400BC6745 /* DigitalCrowmAnimationApp.swift in Sources */,
+				6FAC00A92618EAB400BC6745 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FAC00942618EAB300BC6745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FAC00902618EAB300BC6745 /* DigitalCrowmAnimation WatchKit App */;
+			targetProxy = 6FAC00932618EAB300BC6745 /* PBXContainerItemProxy */;
+		};
+		6FAC00A02618EAB400BC6745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FAC009C2618EAB400BC6745 /* DigitalCrowmAnimation WatchKit Extension */;
+			targetProxy = 6FAC009F2618EAB400BC6745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FAC00B32618EAB400BC6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FAC00B42618EAB400BC6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FAC00B62618EAB400BC6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalCrowmAnimation WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DigitalCrowmAnimation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		6FAC00B72618EAB400BC6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DigitalCrowmAnimation WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DigitalCrowmAnimation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		6FAC00BA2618EAB400BC6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				IBSC_MODULE = DigitalCrowmAnimation_WatchKit_Extension;
+				INFOPLIST_FILE = "DigitalCrowmAnimation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		6FAC00BB2618EAB400BC6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				IBSC_MODULE = DigitalCrowmAnimation_WatchKit_Extension;
+				INFOPLIST_FILE = "DigitalCrowmAnimation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		6FAC00BE2618EAB400BC6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6FAC00BF2618EAB400BC6745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGAHDZJZ9E;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appindustries.DigitalCrowmAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FAC008A2618EAB300BC6745 /* Build configuration list for PBXProject "DigitalCrowmAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAC00B32618EAB400BC6745 /* Debug */,
+				6FAC00B42618EAB400BC6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAC00B52618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAC00B62618EAB400BC6745 /* Debug */,
+				6FAC00B72618EAB400BC6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAC00B92618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAC00BA2618EAB400BC6745 /* Debug */,
+				6FAC00BB2618EAB400BC6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAC00BD2618EAB400BC6745 /* Build configuration list for PBXNativeTarget "DigitalCrowmAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAC00BE2618EAB400BC6745 /* Debug */,
+				6FAC00BF2618EAB400BC6745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FAC00872618EAB300BC6745 /* Project object */;
+}
